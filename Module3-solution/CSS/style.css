@@ -37,11 +37,18 @@ ul#mobile_menu.nav.navbar-nav{
 	margin: 0;
 }
 
+div#drop-downs.navbar-collapse.collapse.in{
+	padding: 0px;
+}
 
 #mobile_menu li{
 	text-align: center;
 	border: 1px solid #e7e7e7;
 	font-weight: bold;
+}
+
+#mobile_menu li a{
+	padding: 0px;
 }
 
 #mobile_menu li:nth-child(1), #mobile_menu li:nth-child(2){
